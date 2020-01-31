@@ -1,7 +1,7 @@
-body {
+html {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 15px;
+    line-height: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,7 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.3rem;
 }
 
 .wrapper {
@@ -32,8 +35,7 @@ h1 {
         "jobs"
         "skills"
         "education"
-        "interests"
-        "privacy";
+        "interests";
     /*box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);*/
 }
 /* tablet portrait */
@@ -46,13 +48,14 @@ h1 {
             "jobs jobs"
             "skills skills"
             "education education"
-            "interests privacy";
+            "interests interests";
     }
 }
 
 .grid-area {
-    padding: 1em 1em 1em 1em;
+    padding: 1rem 1rem 1rem 1rem;
     border : 1px black solid;
+    font-size: 0.95rem;
 }
 
 .name {
@@ -187,8 +190,4 @@ h1 {
 
 .interests {
     grid-area: interests;
-}
-
-.privacy {
-    grid-area: privacy;
 }
